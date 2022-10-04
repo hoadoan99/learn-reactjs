@@ -1,0 +1,15 @@
+/** @format */
+h1 {
+  text-align: center;
+}
+.album {
+  &__thumbnails {
+    & > img {
+      width: 190px;
+    }
+  }
+  &__name {
+    font-size: 14px;
+    font-weight: bold;
+  }
+}

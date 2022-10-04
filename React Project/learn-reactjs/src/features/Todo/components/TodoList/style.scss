@@ -1,0 +1,13 @@
+/** @format */
+.todo-list {
+  list-style: circle;
+  &__item {
+    font-size: 18px;
+    cursor: pointer;
+  }
+  .completed {
+    color: gray;
+    font-style: italic;
+    text-decoration: line-through;
+  }
+}
